@@ -17,9 +17,10 @@
 # V2RAY 基于 NGINX 的 VMESS+WS+TLS+Website(Use Host) 
 ### HTTP Header 分流 随机生成 Header，自带 Website 伪装站点 http 强制跳转 https，支持ssl非443端口，自带Rinetd BBR加速 支持OpenVZ，自动生成客户端config.json配置文件 web在线下载，重装自动清除残余的Http服务，每天自动升级最新的V2ray内核，支持 cdn 嵌套，自动续签ssl证书， 一键添加开机自启动服务 一键开启系统ie代理。
 
-# 本脚本fork自 https://github.com/dylanbai8/V2Ray_ws-tls_Website_onekey 并进行两项私人定制，包括：
-## 原脚本中没有添加自动续签ssl证书的cron任务，本脚本中根据 https://github.com/wulabing/V2Ray_ws-tls_bash_onekey 原版脚本自行添加
-## 去掉下载windows客户端以节约时间（个人不需要用到windows客户端）
+### 本脚本fork自 https://github.com/dylanbai8/V2Ray_ws-tls_Website_onekey 并进行两项私人定制，包括：
+
+* 原脚本中没有添加自动续签ssl证书的cron任务，本脚本中根据 https://github.com/wulabing/V2Ray_ws-tls_bash_onekey 原版脚本自行添加
+* 去掉下载windows客户端以节约时间（个人不需要用到windows客户端）
 
 使用：1.解析好域名； 2.运行一键安装脚本；
 ```
