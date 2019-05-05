@@ -716,9 +716,10 @@ main_sslon(){
 	nginx_conf_add
 	user_config_add
 	rinetdbbr_install
-	win64_v2ray
+	#win64_v2ray
 	show_information
 	start_process_systemd
+	acme_cron_update
 }
 
 main_ssloff(){
@@ -741,7 +742,7 @@ main_ssloff(){
 	nginx_conf_add
 	user_config_add
 	rinetdbbr_install
-	win64_v2ray
+	#win64_v2ray
 	show_information
 	start_process_systemd
 	acme_cron_update
